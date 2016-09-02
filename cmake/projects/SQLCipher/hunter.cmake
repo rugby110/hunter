@@ -23,5 +23,4 @@ hunter_download(
         PACKAGE_INTERNAL_DEPS_ID "2"
         PACKAGE_UNRELOCATABLE_TEXT_FILES
         "lib/libsqlcipher.la"
-        "lib/pkgconfig/sqlcipher.pc"
 )
