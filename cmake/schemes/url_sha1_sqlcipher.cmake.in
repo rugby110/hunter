@@ -7,6 +7,7 @@ project(Hunter)
 list(APPEND CMAKE_MODULE_PATH "@HUNTER_SELF@/cmake/modules")
 
 include(hunter_autotools_project)
+include(hunter_add_package)
 include(hunter_status_debug)
 include(hunter_test_string_not_empty)
 include(hunter_user_error)
