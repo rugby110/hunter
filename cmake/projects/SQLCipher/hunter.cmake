@@ -8,11 +8,11 @@ hunter_add_version(
         PACKAGE_NAME
         SQLCipher
         VERSION
-        "3.4.0"
+        "3.4.0-p1"
         URL
-        "https://github.com/sqlcipher/sqlcipher/archive/v3.4.0.tar.gz"
+        "file:///tmp/sqlcipher-patched.tar.gz"
         SHA1
-        9380db7bd1d304b9db59c5d9c26c449ee57bfe01
+        704e0661bc9e77caa0a043a23ccda06283bed1ff 
 )
 
 hunter_configuration_types(SQLCipher CONFIGURATION_TYPES Release)
